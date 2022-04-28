@@ -1,5 +1,6 @@
 function compute()
 {
+    alert("hola");
     var principal = document.getElementById("principal").value;
     if(principal=="" || principal <= 0) {
         alert("Enter a positive number");
